@@ -9,14 +9,14 @@ export const Header = () => {
 </svg>
                             </div>    
                             <div className="logo__name">
-                                                           <span className="logo__name-left">Солнц</span>
+                               <span className="logo__name-left">Солнц</span>
                                <span className="logo__name-right">OFF</span>
                             </div>
                         </div>
                         <nav className="menu">
                          <ul className="menu__list">
                              <li className="menu__item">
-                                 <a href="" className="menu__link">Главная</a>
+                                 <a href="/" className="menu__link">Главная</a>
                              </li>
                              <li className="menu__item">
                                  <a href="" className="menu__link">Каталог</a>

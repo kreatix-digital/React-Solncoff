@@ -1,5 +1,6 @@
 import { Header } from "../components/header";
 import { Burger } from "../components/burger";
+import { Footer } from "../components/footer";
 
 export const Contacts = () => {
     return (
@@ -9,6 +10,7 @@ export const Contacts = () => {
             <div className="container preview__container">
               <Header />
               <Burger />
+              <Footer />
             </div>
           </section>
         </div>
