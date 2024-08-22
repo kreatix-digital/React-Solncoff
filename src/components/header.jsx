@@ -31,7 +31,7 @@ export const Header = () => {
                                  <a href="" className="menu__link">Отзывы</a>
                              </li>
                              <li className="menu__item">
-                                 <a href="" className="menu__link">Контакты</a>
+                                 <a href="/contacts" className="menu__link">Контакты</a>
                              </li>
                          </ul>
                         </nav>
