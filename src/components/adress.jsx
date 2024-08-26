@@ -15,7 +15,7 @@ export const Adress = () => {
                 <li>чт</li>
                 <li>пт</li>
             </ul>
-            <p>сб, вс Выходной</p>
+            <p className="work__time">сб, вс Выходной</p>
         </div>
     </div>
     )

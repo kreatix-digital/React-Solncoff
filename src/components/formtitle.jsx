@@ -1,4 +1,4 @@
-export const Form = () => {
+export const FormTitle = () => {
     return (
     <div className="contacts__form">
         <div className="title">

@@ -3,7 +3,8 @@ import { Burger } from "../components/burger";
 import { Footer } from "../components/footer";
 import { Map } from "../components/map";
 import { Adress } from "../components/adress";
-import { Form } from "../components/form";
+import { FormTitle } from "../components/formtitle";
+import { Clients } from "../components/clients";
 
 export const Contacts = () => {
     return (
@@ -12,10 +13,11 @@ export const Contacts = () => {
           <section className="section footer">
             <div className="container footer__container">
               <Header />
+              <Clients />
               <div className="contacts">
                 <Map />
                 <Adress />
-                <Form />
+                <FormTitle />          
               </div>
               <Footer />
               <Burger />

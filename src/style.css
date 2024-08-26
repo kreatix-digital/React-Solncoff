@@ -207,6 +207,12 @@ img {
   white-space: nowrap;
 }
 
+@media screen and (max-width: 768px) {
+  .phone-number {
+    display: none;
+  }
+}
+
 .fixed-menu {
   position: fixed;
   top: 50%;
@@ -954,6 +960,7 @@ img {
 }
 
 .footer__title {
+  margin-top: 1em;
   font-size: 2.4em;
   text-transform: none;
 }
