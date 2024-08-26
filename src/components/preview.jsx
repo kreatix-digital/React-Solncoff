@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export const Preview = () => {
     return (
         <div className="preview__section">
@@ -8,7 +9,7 @@ export const Preview = () => {
                                 <p>Рольставни</p>
                                 <p>Жалюзи и шторы</p>
                             </div>
-                            <a href="" className="button">Заказать</a>
+                            <Link to="/contacts" className="button">Заказать</Link>
                         </div>
                         <div className="preview__image-section">
                         <img src={'./src/images/logo.png'} className="image__section"/>

@@ -2,7 +2,7 @@ export const Clients = () => {
     return (
         <div className="clients">
         <div className="title">
-            <h1 className="footer__title">Наши клиенты</h1>
+            <h1 className="footer__title clients__title">Наши клиенты</h1>
         </div>
         <div className="clients__pic">
             <ul className="clients__list">
