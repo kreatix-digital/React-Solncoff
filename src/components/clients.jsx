@@ -1,3 +1,7 @@
+import { Gazprom } from "../icon/clients/Gazprom"
+import { Plus } from "../icon/clients/Plus"
+import { Urgpu } from "../icon/clients/Urgpu"
+
 export const Clients = () => {
     return (
         <div className="clients">
@@ -8,17 +12,17 @@ export const Clients = () => {
             <ul className="clients__list">
                 <li className="clients__item">
                     <div className="clients__logo">
-                    Лого
+                    <Urgpu />
                     </div>
                 </li>
                 <li className="clients__item">
                     <div className="clients__logo">
-                    Лого
+                    <Gazprom />
                     </div>
                 </li>
                 <li className="clients__item">
                     <div className="clients__logo">
-                    Лого
+                    <Plus />
                     </div>
                 </li>
                 <li className="clients__item">
